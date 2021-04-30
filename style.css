@@ -80,12 +80,12 @@ h2, a {
 /* presentational */
 body { padding: 2%; font: 18px/1.4 cursive; font-weight: 400; font-style: 1.3125rem; line-height: 1.6; }
 
-nav a { background: aqua; color: #E00; display: block; padding: 0.5em 1em; text-decoration: none; 
+nav a { background-color: var(--clr-neutral-900); color: var(--clr-neutral-100); display: block; padding: 0.5em 1em; text-decoration: none; 
     border: 2px solid rgb(38, 108, 165); border-radius: 10%; box-shadow: 5px 5px 5px #5c5c5c,
     -5px -5px 5px #ffffff, inset 5px 5px 5px #616161, inset -5px -5px 5px rgb(255, 255, 255);
     
 }
-nav a:hover { color: aqua; }
+nav a:hover { color: var(--clr-neutral-100); }
 nav ul,
 nav ul li { list-style-type: none; padding: 0; margin: 0; width: auto;}
 
@@ -104,7 +104,7 @@ body, h1, h2, h3, p {
 }
 
 h1, h2, h3 {
-  color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
   font-family: var(--ff-accent);
   font-weight: 900;
   line-height: 1; 
@@ -169,6 +169,6 @@ footer {
 
   font-size: larger;
   align-items: center;
-  background-color: #EEE;
-  color: #222C2A;
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
 }
