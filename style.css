@@ -150,7 +150,9 @@ section {
   .split {
       flex-direction: row;
   }
-
+a, p, footer {
+font-size: 16px;
+}
   .split > * {
       flex-basis: 100%;
   }
