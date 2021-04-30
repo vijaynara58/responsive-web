@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: var(--ff-primary);
+  font-family: 'Anton', sans-serif;
   font-weight: 400;
   font-style: 1.3125rem;
   line-height: 1.6;
@@ -78,7 +78,7 @@ h2, a {
 }
 
 /* presentational */
-body { padding: 2%; font: 18px/1.4 cursive; font-weight: 400; font-style: 1.3125rem; line-height: 1.6; }
+body { padding: 2%; font: 18px/1.4 sans-serif; font-weight: 400; font-style: 1.3125rem; line-height: 1.6; }
 
 nav a { background-color: var(--clr-neutral-900); color: var(--clr-neutral-100); display: block; padding: 0.5em 1em; text-decoration: none; 
     border: 2px solid rgb(38, 108, 165); border-radius: 10%; box-shadow: 5px 5px 5px #5c5c5c,
@@ -104,8 +104,9 @@ body, h1, h2, h3, p {
 }
 
 h1, h2, h3 {
+  text-transform: uppercase;
   color: var(--clr-neutral-100);
-  font-family: var(--ff-accent);
+  font-family: sans-serif;
   font-weight: 900;
   line-height: 1; 
   margin-bottom: 1em;
